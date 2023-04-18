@@ -3,7 +3,7 @@
 
   "name": "Last Tweet Date",
   "description": "This extension shows last tweet dates at following list",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "update_url": "https://raw.githubusercontent.com/coolengineer/lasttweetdate/master/update.xml",
 
   "browser_action": {
@@ -21,7 +21,7 @@
   "content_scripts": [
     {
       "matches": ["https://twitter.com/*"],
-      "js": ["jquery-2.1.0.js", "lasttweet.js"]
+      "js": ["jquery-3.6.4.min.js", "lasttweet.js"]
     }
   ]
 }
